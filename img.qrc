@@ -1,0 +1,44 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>pict/task_1.2.svg</file>
+    <file>pict/task_1.3.svg</file>
+    <file>pict/task_1.4.svg</file>
+    <file>pict/task_1.5.svg</file>
+    <file>pict/task_1.6.svg</file>
+    <file>pict/task_1.7.svg</file>
+    <file>pict/task_1.8.svg</file>
+    <file>pict/task_1.9.svg</file>
+    <file>pict/task_1.10.svg</file>
+    <file>pict/task_1.1.svg</file>
+    <file>pict/pict 22.jpg</file>
+    <file>pict/pict1.jpg</file>
+    <file>pict/pict2.jpg</file>
+    <file>pict/pict3.jpg</file>
+    <file>pict/pict4.jpg</file>
+    <file>pict/pict5.jpg</file>
+    <file>pict/pict6.jpg</file>
+    <file>pict/pict7.jpg</file>
+    <file>pict/pict8.jpg</file>
+    <file>pict/pict9.jpg</file>
+    <file>pict/pict10.jpg</file>
+    <file>pict/pict11.jpg</file>
+    <file>pict/pict12.jpg</file>
+    <file>pict/pict13.jpg</file>
+    <file>pict/pict14.png</file>
+    <file>pict/pict15.jpg</file>
+    <file>pict/pict16.jpg</file>
+    <file>pict/pict17.jpg</file>
+    <file>pict/pict18.jpg</file>
+    <file>pict/pict19.jpg</file>
+    <file>pict/pict20.jpg</file>
+    <file>pict/pict21.jpg</file>
+    <file>pict/pict23.jpg</file>
+    <file>pict/pict24.jpg</file>
+    <file>pict/pict25.jpg</file>
+    <file>pict/pict26.jpg</file>
+    <file>pict/pict28.jpg</file>
+    <file>pict/pict29.jpg</file>
+    <file>pict/pict30.jpg</file>
+    <file>pict/pict31.jpg</file>
+  </qresource>
+</RCC>
