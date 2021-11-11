@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>743</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background-color: rgb(0, 0, 0, 0);
+border: none;
+}
+QFrame{
+background-color: rgb(0, 0, 0, 0);
+}
+color: rgb(0, 85, 127);</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="top_widget">
+      <property name="styleSheet">
+       <string notr="true">background:rgb(255, 255, 243)</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item alignment="Qt::AlignLeft">
+        <widget class="QFrame" name="frame_3">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <property name="spacing">
+           <number>3</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+         </layout>
+        </widget>
+       </item>
+       <item alignment="Qt::AlignVCenter">
+        <widget class="QFrame" name="frame_4">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="text_label_name">
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Math 27+</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="header">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="left_body">
+         <property name="minimumSize">
+          <size>
+           <width>150</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>150</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background:rgb(255, 255, 243);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item alignment="Qt::AlignTop">
+           <widget class="QFrame" name="frame">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <property name="spacing">
+              <number>15</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="first">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="second">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>2</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="third">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>3</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="forth">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>4</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="fifth">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>5</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="six">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>6</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="seven">
+               <property name="font">
+                <font>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>7</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="task_but">
+               <property name="font">
+                <font>
+                 <pointsize>10</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>Task</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="header_body">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(168, 255, 162);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="currentIndex">
+             <number>1</number>
+            </property>
+            <widget class="QWidget" name="task">
+             <layout class="QVBoxLayout" name="verticalLayout_11">
+              <item>
+               <widget class="QComboBox" name="comboBox_number">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);</string>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>2</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>3</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>4</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>5</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>6</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>7</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>8</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>9</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>10</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>11</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+              <item>
+               <widget class="QFrame" name="frame_5">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_12">
+                 <item>
+                  <widget class="QLabel" name="label_image">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="pixmap">
+                    <pixmap resource="img.qrc">:/newPrefix/pict/task_1.10.svg</pixmap>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="labe_text">
+                   <property name="text">
+                    <string>TextLabel</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item alignment="Qt::AlignBottom">
+               <widget class="QFrame" name="frame_2">
+                <property name="frameShape">
+                 <enum>QFrame::StyledPanel</enum>
+                </property>
+                <property name="frameShadow">
+                 <enum>QFrame::Raised</enum>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_10">
+                 <item>
+                  <widget class="QLineEdit" name="line_otvet">
+                   <property name="maximumSize">
+                    <size>
+                     <width>200</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(255, 255, 255);</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="otvet_test">
+                   <property name="text">
+                    <string> Проверить</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_true">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="new_task">
+                <property name="text">
+                 <string>Новая задача</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="first_page">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_16">
+              <item>
+               <widget class="QScrollArea" name="scrollArea">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(239, 255, 240);</string>
+                </property>
+                <property name="widgetResizable">
+                 <bool>true</bool>
+                </property>
+                <widget class="QWidget" name="scrollAreaWidgetContents">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>703</width>
+                   <height>1295</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_3">
+                  <property name="spacing">
+                   <number>11</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_19">
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Задание 1. &lt;span style=&quot; color:#212529;&quot;&gt;Простейшие уравнения. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;В задании №1 варианта ЕГЭ вам встретятся всевозможные уравнения: квадратные и&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;сводящиеся к квадратным, дробно-рациональные, иррациональные, степенные,&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;показательные и логарифмические и даже тригонометрические. Видите, как много нужно&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;знать, чтобы справиться с заданием! И еще ловушки и «подводные камни», которые ждут вас&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;в самом неожиданном месте.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Квадратные уравнения&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Квадратное уравнение – уравнение вида ax^2+bx+c = 0 где a не равно 0.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Числа a, b, c называются коэффициентами квадратного уравнения.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Квадратное уравнение может иметь два действительных корня, один действительный корень или ни одного.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Количество корней квадратного уравнения зависит от знака выражения, которое называется дискриминант.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-weight:600; color:#212529;&quot;&gt;Дискриминант квадратного уравнения:&lt;/span&gt;&lt;span style=&quot; color:#212529;&quot;&gt; D = b^2 – 4ac.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Если D &amp;gt; 0, квадратное уравнение имеет два корня: &lt;/span&gt;&lt;img src=&quot;:/newPrefix/pict/pict28.jpg&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt; и &lt;/span&gt;&lt;img src=&quot;:/newPrefix/pict/pict29.jpg&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt; .&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Если D = 0, квадратное уравнение имеет единственный корень &lt;/span&gt;&lt;img src=&quot;:/newPrefix/pict/pict30.jpg&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt; .&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Если D &amp;lt; 0, квадратное уравнение не имеет действительных корней.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Рассмотрим неполные квадратные уравнения. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Неполными называются квадратные уравнения у которых коэффициент b, коэффициент c, или&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt; оба коэффициента равны нулю.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;c = 0 &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Тогда уравнение имеет вид: &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;ax^2+bx = 0&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Запишем его в следующем виде:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;x(ax+b) =0 &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Произведение двух множителей равно нулю тогда и только тогда, когда хотя бы один из них&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;равен нулю.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Значит &lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png&quot; width=&quot;44&quot; height=&quot;18&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt; , &lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png&quot; width=&quot;54&quot; height=&quot;26&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;b = 0 &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Тогда уравнение имеет вид ax^2 + c = 0&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Корнями данного уравнения будут &lt;/span&gt;&lt;img src=&quot;:/newPrefix/pict/pict31.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;При этом подкоренное выражение обязательно больше нуля, либо равно нулю.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;b = 0 и c = 0&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Тогда уравнение имеет вид ax^2 = 0&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Очевидно что оно имеет единственный корень x = 0&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Теорема Виета &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Полезная теорема для решения квадратных уравнений – теорема Виета.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Если &lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png&quot; width=&quot;17&quot; height=&quot;18&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt; и &lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png&quot; width=&quot;14&quot; height=&quot;18&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt; – корни уравнения ax^2+bx+c = 0, то &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image010.png&quot; width=&quot;91&quot; height=&quot;26&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt; и &lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image012.png&quot; width=&quot;57&quot; height=&quot;25&quot;/&gt;&lt;/p&gt;&lt;p&gt;Разложение квадратного трехчлена на множители &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;ax^2+bx+c = a(x-&lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image014.png&quot; width=&quot;20&quot; height=&quot;18&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt;)(x-&lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png&quot; width=&quot;14&quot; height=&quot;18&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Здесь &lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png&quot; width=&quot;17&quot; height=&quot;18&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt;и &lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image008.png&quot; width=&quot;14&quot; height=&quot;18&quot;/&gt;&lt;span style=&quot; color:#212529;&quot;&gt; – корни квадратного уравнения ax^2+bx+c = 0.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Запомните эту формулу. Она необходима для решения квадратичных и дробно-рациональных&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;неравенств.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="second_page">
+             <layout class="QHBoxLayout" name="horizontalLayout_2">
+              <item>
+               <widget class="QScrollArea" name="scrollArea_2">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(239, 255, 240);</string>
+                </property>
+                <property name="widgetResizable">
+                 <bool>true</bool>
+                </property>
+                <widget class="QWidget" name="scrollAreaWidgetContents_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>632</width>
+                   <height>542</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_5">
+                  <property name="spacing">
+                   <number>11</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_20">
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;Задание 2. Теория вероятностей. Основные понятия.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-style:italic; color:#212529;&quot;&gt;Вероятность события равна отношению числа благоприятных исходов к общему числу исходов.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Очевидно, что вероятность не может быть больше единицы.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529; background-color:#ffffff;&quot;&gt;p = m/n &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;m – количество благоприятных исходов &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;n – общее количество исходов &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;p – вероятность события&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Начнем с самого простого примера. Вы бросаете монетку. Орел или решка?&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Такое действие, которое может привести к одному из нескольких результатов, в теории&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt; вероятностей называют &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-style:italic; color:#212529;&quot;&gt;испытанием&lt;/span&gt;&lt;span style=&quot; color:#212529;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Орел и решка — два возможных &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-style:italic; color:#212529;&quot;&gt;исхода&lt;/span&gt;&lt;span style=&quot; color:#212529;&quot;&gt; испытания.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Орел выпадет в одном случае из двух возможных. Говорят, что &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-style:italic; color:#212529;&quot;&gt;вероятность&lt;/span&gt;&lt;span style=&quot; color:#212529;&quot;&gt; того, что&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt; монетка упадет орлом, равна  1/2&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Бросим игральную кость. У кубика шесть граней, поэтому возможных исходов тоже шесть.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Например, вы загадали, что выпадет три очка. Это один исход из шести возможных. В теории&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt; вероятностей он будет называться &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-style:italic; color:#212529;&quot;&gt;благоприятным исходом&lt;/span&gt;&lt;span style=&quot; color:#212529;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Вероятность выпадения тройки равна 1/6 (один благоприятный исход из шести возможных).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;Вероятность четверки — тоже 1/6&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#212529;&quot;&gt;А вот вероятность появления семерки равна нулю. Ведь грани с семью точками на кубике нет.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="forth_page">
+             <layout class="QHBoxLayout" name="horizontalLayout_6">
+              <item>
+               <widget class="QScrollArea" name="scrollArea_4">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(239, 255, 240);</string>
+                </property>
+                <property name="widgetResizable">
+                 <bool>true</bool>
+                </property>
+                <widget class="QWidget" name="scrollAreaWidgetContents_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>752</width>
+                   <height>1957</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_8">
+                  <property name="spacing">
+                   <number>11</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_22">
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Задание 4. Вычисления и преобразования. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Для того, чтобы решать данное задание нужно знать основные свойства функций.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Основные свойства логарифмов:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict 22.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Основные свойства степеней:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict23.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Основные свойства корней:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict24.jpg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="seven_page">
+             <layout class="QHBoxLayout" name="horizontalLayout_9">
+              <item>
+               <widget class="QScrollArea" name="scrollArea_6">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(239, 255, 240);</string>
+                </property>
+                <property name="widgetResizable">
+                 <bool>true</bool>
+                </property>
+                <widget class="QWidget" name="scrollAreaWidgetContents_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>799</width>
+                   <height>593</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_10">
+                  <property name="spacing">
+                   <number>11</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_24">
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Задание 7. Задачи с прикладным содержанием. &lt;/p&gt;&lt;p&gt;Можно сказать что это задачи по физике, а не по математике, но все необходимые формулы и величины даны в условии. Задачи&lt;/p&gt;&lt;p&gt;сводятся к решению линейного или квадратного уравнения, либо линейного или квадратного неравенства. Поэтому необходимо&lt;/p&gt;&lt;p&gt;уметь решать такие уравнения и неравенства, и определять ответ. Ответ в любом случае, должен получиться в виде целого&lt;/p&gt;&lt;p&gt;числа или конечной десятичной дроби. &lt;/p&gt;&lt;p&gt;На что необходимо обратить внимание: &lt;/p&gt;&lt;p&gt;Если в вопросе прозвучало «определить наибольшее значение», «определить наименьшее значение», то&lt;/p&gt;&lt;p&gt; задача в большинстве случаев решается через составление неравенства. &lt;/p&gt;&lt;p&gt; Правильно определяйте знак при составлении неравенства. Например: b не менее 21 записывается как b≥21 (b равно или&lt;/p&gt;&lt;p&gt;больше 21). &lt;/p&gt;&lt;p&gt;Если в вопросе задачи прозвучало «сколько», то составляется уравнение. &lt;/p&gt;&lt;p&gt;Не забывайте перевести единицы измерения, если это необходимо (метры с сантиметры и пр.) &lt;/p&gt;&lt;p&gt;Не упускайте из виду, в каких единицах измерения требуется записать ответ (например, решив задачу, &lt;/p&gt;&lt;p&gt;вы получили 0,5 часа, в условии сказано записать ответ в минутах, получается 30 минут; если запишите&lt;/p&gt;&lt;p&gt; 0,5 – это ошибка и потерянный бал, хотя задача&lt;/p&gt;&lt;p&gt;решена, верно). &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="six_page">
+             <layout class="QHBoxLayout" name="horizontalLayout_8">
+              <item>
+               <widget class="QScrollArea" name="scrollArea_5">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(239, 255, 240);</string>
+                </property>
+                <property name="widgetResizable">
+                 <bool>true</bool>
+                </property>
+                <widget class="QWidget" name="scrollAreaWidgetContents_5">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>1184</width>
+                   <height>1145</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_9">
+                  <property name="spacing">
+                   <number>11</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_23">
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Задание 6. Производная &lt;/p&gt;&lt;p&gt;Таблица производных основных функций: &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict25.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;Правила дифференцирования: &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b; background-color:#ffffff;&quot;&gt;Производная суммы равна сумме производных: (f(x) + g(x))' = f '(x) + g'(x).&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;Постоянный множитель можно вынести за знак производной:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;(cf(x))'=c f '(x)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b; background-color:#ffffff;&quot;&gt;Производная произведения равна произведению первого множителя на второй плюс первый множитель, умноженный на производную второго.                        (f(x)·g(x))' = f ' (x)·g(x)+f(x)·g' (x)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b; background-color:#ffffff;&quot;&gt;Производная частного равна производной числителя умноженного на знаменатель минус числитель умноженный на производную знаменателя и все это деленное на квадрат знаменателя.&lt;/span&gt;&lt;/p&gt;&lt;p/&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict26.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;Производная сложной функции находится по формуле: (f(g(x)))'=f '(g(x))·g' (x)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;Геометрический смысл производной:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b; background-color:#ffffff;&quot;&gt;Производная в точке x&lt;/span&gt;&lt;span style=&quot; color:#1d1d1b; background-color:#ffffff; vertical-align:sub;&quot;&gt;0&lt;/span&gt;&lt;span style=&quot; color:#1d1d1b; background-color:#ffffff;&quot;&gt; равна угловому коэффициенту касательной к графику функции &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-style:italic; color:#1d1d1b; background-color:#ffffff;&quot;&gt;y&lt;/span&gt;&lt;span style=&quot; color:#1d1d1b; background-color:#ffffff;&quot;&gt; = &lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-style:italic; color:#1d1d1b; background-color:#ffffff;&quot;&gt;f&lt;/span&gt;&lt;span style=&quot; color:#1d1d1b; background-color:#ffffff;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-style:italic; color:#1d1d1b; background-color:#ffffff;&quot;&gt;x&lt;/span&gt;&lt;span style=&quot; color:#1d1d1b; background-color:#ffffff;&quot;&gt;) в этой точке.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;Физический смысл производной:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;Скорость – это производная пути по времени.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;V = s’(t)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;Если производная больше нуля, то функция возрастает.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;Если производная меньше нуля, то функция убывает.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;Если производная равна нулю, то данная точка x называется точкой экстремума.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#1d1d1b;&quot;&gt;Экстремум – максимальное или минимальное значение функции на заданном промежутке.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="third_page">
+             <layout class="QHBoxLayout" name="horizontalLayout_5">
+              <item>
+               <widget class="QScrollArea" name="scrollArea_3">
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(239, 255, 240);</string>
+                </property>
+                <property name="widgetResizable">
+                 <bool>true</bool>
+                </property>
+                <widget class="QWidget" name="scrollAreaWidgetContents_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>663</width>
+                   <height>6001</height>
+                  </rect>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_7">
+                  <property name="spacing">
+                   <number>11</number>
+                  </property>
+                  <item>
+                   <widget class="QLabel" name="label_21">
+                    <property name="text">
+                     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Задание 3. Планиметрия. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; color:#212529; background-color:#ffffff;&quot;&gt;Формулы площади основных фигур&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Площадь треугольника &lt;/p&gt;&lt;p&gt;Через сторону и высоту &lt;/p&gt;&lt;p&gt;S = ½ ah &lt;/p&gt;&lt;p&gt;a – сторона треугольника &lt;/p&gt;&lt;p&gt;h – высота треугольника, проведённая к стороне a &lt;/p&gt;&lt;p&gt;?КАРТИНКА1? &lt;/p&gt;&lt;p&gt;Через две стороны и угол между ними &lt;/p&gt;&lt;p&gt;S = ½ ab sin&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png&quot; width=&quot;10&quot; height=&quot;18&quot;/&gt;&lt;/p&gt;&lt;p&gt;a – сторона треугольника &lt;/p&gt;&lt;p&gt;b – сторона треугольникa &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png&quot; width=&quot;10&quot; height=&quot;18&quot;/&gt; – угол между сторонами a и b &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict2.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;Формула Герона &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict3.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;a – сторона треугольника &lt;/p&gt;&lt;p&gt;b – сторона треугольника &lt;/p&gt;&lt;p&gt;c – сторона треугольника &lt;/p&gt;&lt;p&gt;p – полупериметр треугольника, p = ½(a+b+c) &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict4.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;Через радиус вписанной окружности &lt;/p&gt;&lt;p&gt;S = pr &lt;/p&gt;&lt;p&gt;p – полупериметр треугольника &lt;/p&gt;&lt;p&gt;r – радиус вписанной окружности треугольника &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict5.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;Через радиус описанной окружности &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict6.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;R – радиус описанной окружности &lt;/p&gt;&lt;p&gt;a – сторона треугольника &lt;/p&gt;&lt;p&gt;b – сторона треугольника &lt;/p&gt;&lt;p&gt;c – сторона треугольника &lt;/p&gt;&lt;p&gt;Площадь параллелограмма &lt;/p&gt;&lt;p&gt;S = ah &lt;/p&gt;&lt;p&gt;a – сторона параллелограмма &lt;/p&gt;&lt;p&gt;h – высота параллелограмма, проведённая к стороне a &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict7.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;S = ab sin&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png&quot; width=&quot;10&quot; height=&quot;18&quot;/&gt;&lt;/p&gt;&lt;p&gt;a – сторона параллелограмма &lt;/p&gt;&lt;p&gt;b – сторона параллелограмма &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png&quot; width=&quot;10&quot; height=&quot;18&quot;/&gt; – угол между a и b &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict8.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict9.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict10.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;Площадь трапеции &lt;/p&gt;&lt;p&gt;S = ½ (a+b)h &lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict11.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;Средняя линия треугольника и трапеции. &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-weight:600; color:#333333;&quot;&gt;Средняя линия треугольника &lt;/span&gt;&lt;span style=&quot; color:#333333;&quot;&gt;- это отрезок, соединяющий середины двух его сторон.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict12.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Средняя линия треугольника параллельна третьей стороне, а ее длина равна половине длины&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt; этой стороны.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-family:'Arial','sans-serif'; font-weight:600; color:#333333;&quot;&gt;Средняя линия трапеции &lt;/span&gt;&lt;span style=&quot; color:#333333;&quot;&gt;- это отрезок, соединяющий середины её боковых сторон.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict13.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Средняя линия трапеции равна половине суммы оснований.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;m = &lt;/span&gt;½(a+b) &lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;m – средняя линия трапеции&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;a и b – основания трапеции&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Средняя линия трапеции параллельна основаниям трапеции.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Теорема синусов. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict14.png&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Теорема косинусов. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict15.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict16.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Вписанные и центральные углы.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict17.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Центральный угол – угол с вершиной в центре окружности, стороны которого проходят через&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt; окружность.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Вписанный угол – угол, вершина которого лежит на окружности, а стороны пересекают данную&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt; окружность.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Центральный угол равен градусной мере дуги на которую опирается. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Вписанный угол равен половине градусной меры дуги, на которую опирается. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Все вписанные углы, опирающиеся на одну дугу, равны.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Вписанный четырёхугольник. Признаки и свойства.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Вписанный четырёхугольник – четырёхугольник вершины которого лежат на одной окружности. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Если сумма противоположных углов четырёхугольника равна 180 градусам, то данный&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt; четырёхугольник вписанный. Утверждение верно и в обратную сторону.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict18.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict19.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Если угол &lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image004.png&quot; width=&quot;10&quot; height=&quot;18&quot;/&gt;&lt;span style=&quot; color:#333333;&quot;&gt; равен углу &lt;/span&gt;&lt;img src=&quot;file:///C:/Users/Asus/AppData/Local/Temp/msohtmlclip1/01/clip_image006.png&quot; width=&quot;10&quot; height=&quot;18&quot;/&gt;&lt;span style=&quot; color:#333333;&quot;&gt; то четырёхугольник вписанный. Утверждение верно и в обратную&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt; сторону. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Описанный четырёхугольник. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Описанный четырёхугольник – четырёхугольник в который можно вписать окружность. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict20.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Главное свойство описанного четырёхугольника: суммы длин противоположных сторон равны. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;a + c = b + d &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;:/newPrefix/pict/pict21.jpg&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt;Площадь описанного четырёхугольника находится как произведение полупериметра на радиус&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#333333;&quot;&gt; вписанной окружности.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>
